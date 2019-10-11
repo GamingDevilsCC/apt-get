@@ -1,0 +1,4 @@
+bug:
+device/oneplus/oneplus6/DeviceParts/Android.mk: error: "DeviceParts (APPS android-arm64) missing vendor.oneplus.camera.CameraHIDL-V1.0-java (JAVA_LIBRARIES android-arm64)" 
+fix: add below to device vendor framework
+https://github.com/aexmod-tmp/vendor_oneplus_oneplus6/blob/9.0/oneplus6/proprietary/framework/vendor.oneplus.camera.CameraHIDL-V1.0-java.jar
